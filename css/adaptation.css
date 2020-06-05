@@ -1,0 +1,36 @@
+@media (max-device-width: 1260px) {
+    * {
+        font-size: 31.25%
+    }
+}
+
+@media (max-device-width: 1680px) and (min-device-width: 1261px) {
+    * {
+        font-size: 46.875%
+    }
+}
+
+@media (max-device-width: 2520px) and (min-device-width: 1681px) {
+    * {
+        font-size: 62.5%
+    }
+}
+
+@media (max-device-width: 3360px) and (min-device-width: 2521px) {
+    * {
+        font-size: 83.33%
+    }
+}
+
+@media (max-device-width: 5040px) and (min-device-width: 3361px) {
+    * {
+        font-size: 125%
+    }
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    color: black;
+    margin: 2rem;
+    margin-top: 0;
+}

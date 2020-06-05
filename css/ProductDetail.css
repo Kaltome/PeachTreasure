@@ -1,0 +1,120 @@
+.webBox {
+    width: 124rem;
+    height: 80rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.productBox{
+    width: 100%;
+    height: 72rem;
+    position: absolute;
+    top: 8rem;
+}
+
+.productImage{
+    height: 100%;
+    position: absolute;
+    border-radius: 1rem;
+    left: 0;
+}
+
+.productMessageBox {
+    width: 48rem;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    border: #E5E5E5;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border-width: 0.2rem;
+}
+
+.productMessage {
+    width: 40rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.productName{
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top:3.5rem;
+    padding-bottom:3.5rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+}
+
+.infoTitle {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 3.5rem;
+    font-size: 2.4rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.productInfo {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 4rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+    opacity: 0.6;
+}
+
+.messageLine {
+    width: 100%;
+    height: 0.2rem;
+    background-color: black;
+    opacity: 0.1;
+    position: relative;
+    user-select: none;
+}
+
+.price {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-size: 3.6rem;
+    font-weight: 700;
+}
+
+.addToCart {
+    height: 4rem;
+    position: absolute;
+    left: 0;
+    bottom: 4rem;
+    cursor: pointer;
+}
+
+.buyButton {
+    height: 4rem;
+    width: 12rem;
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    cursor: pointer;
+}
+
+.buyNow {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}

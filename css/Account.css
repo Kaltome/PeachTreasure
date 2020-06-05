@@ -1,0 +1,127 @@
+﻿.accountBox {
+    width: 48rem;
+    height: 72rem;
+    top: 8rem;
+    margin: 0 auto;
+    position: relative;
+    border: #E5E5E5;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border-width: 0.2rem;
+}
+
+.accountMessageBox {
+    width: 40rem;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.messageLine {
+    position: relative;
+    width: 100%;
+    height: 0.2rem;
+    background-color: black;
+    opacity: 0.1;
+    user-select: none;
+}
+
+.accountLogo {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    font-size: 3.6rem;
+    font-weight: 600;
+    user-select: none;
+}
+
+.accountTitle {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 3.5rem;
+    font-size: 3.2rem;
+    font-weight: 500;
+    user-select: none;
+    opacity: 0.8
+}
+
+.accountInputHint {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding-top: 2.5rem;
+    padding-bottom: 1.5rem;
+    font-size: 1.8rem;
+    font-weight: 400;
+    user-select: none;
+    opacity: 0.6
+}
+
+input {
+    position: relative;
+    width: 100%;
+    height: 4rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, 0.6);
+    padding-left: 1rem;
+    outline: 0;
+    background-color: white;
+    border: #E5E5E5;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 0.5rem;
+    border-width: 0.2rem;
+}
+
+    input:focus {
+        border: #666666;
+        border-style: solid;
+        box-sizing: border-box;
+        border-radius: 0.5rem;
+        border-width: 0.2rem;
+    }
+
+    input:-webkit-autofill {
+        box-shadow: 0 0 0px 1000px white inset !important;
+        -webkit-text-fill-color: rgba(0, 0, 0, 0.6);
+    }
+
+
+.accountAction {
+    font-size: 1.8rem;
+    font-weight: 400;
+    position: absolute;
+    left: 0;
+    bottom: 4.5rem;
+    opacity: 0.4;
+    user-select: none;
+    cursor: pointer;
+}
+
+.accountButton {
+    height: 4rem;
+    width: 12rem;
+    position: absolute;
+    right: 0;
+    bottom: 4rem;
+    border-radius: 0.5rem;
+    background-color: black;
+    cursor: pointer;
+}
+
+.accountButtonHint {
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: white;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
+}
+    

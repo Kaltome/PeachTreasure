@@ -1,0 +1,44 @@
+﻿.orderListBox {
+    width: 124rem;
+    top: 4rem;
+    margin: 0 auto;
+    position: relative;
+}
+
+.orderItemBox {
+    width: 100%;
+    height: 10rem;
+    position: absolute;
+    border: #E5E5E5;
+    border-style: solid;
+    box-sizing: border-box;
+    border-radius: 1rem;
+    border-width: 0.2rem;
+    cursor: pointer;
+}
+
+.orderItemImg {
+    height: 6rem;
+    position: absolute;
+    left: 2rem;
+    top: 50%;
+    transform: translateY(-50%);
+    border-radius: 0.5rem;
+}
+
+.orderItemName {
+    font-size: 1.8rem;
+    font-weight: 400;
+    position: absolute;
+    top: 1.7rem;
+    right: 2rem;
+    opacity: 0.6;
+}
+
+.orderItemPrice {
+    font-size: 2.4rem;
+    font-weight: 600;
+    position: absolute;
+    bottom: 1.7rem;
+    right: 2rem;
+}
